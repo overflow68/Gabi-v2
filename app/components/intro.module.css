@@ -1,0 +1,114 @@
+.typewriter h2 {
+  color: #fff;
+  text-align: left;
+  float: left;
+  overflow: hidden;
+  border-right: .15em solid rgb(53, 255, 255);
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: .12em;
+  animation:
+    typing 2.7s steps(25, end),
+    blink .9s linear infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink {
+  from, to { border-color: transparent }
+  50% { border-color: rgb(53, 255, 255) }
+}
+
+.cont {
+  display: flex;
+}
+
+.text {
+  font-size: 4rem;
+}
+
+.name {
+  color: rgb(53, 255, 255);
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 10%;
+  padding-right: 10%; /* Add padding for both sides */
+  padding-top: 12%;
+  min-height: 100vh;
+}
+
+.introP {
+  white-space: pre-line;
+  word-wrap: break-word;
+  max-width: 600px;
+  color: #919191;
+  text-align: justify;
+  font-size: 1.3rem;
+}
+
+.sub {
+  color: #919191;
+  font-size: 2.5rem;
+  margin-top: 10px;
+}
+.btn{
+  margin: 20px;
+  font-size: 1.5rem;
+  color:rgb(53, 255, 255) ;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+  .intro {
+    padding-left: 5%;
+    padding-right: 5%; /* Adjust padding for smaller screens */
+    text-align: center; /* Center the intro on smaller screens */
+    align-items: center; /* Align items in the center vertically */
+  }
+
+  .introP {
+    max-width: 300px;
+    font-size: 1rem; /* Adjust font size for smaller screens */
+  }
+  
+  .text {
+    font-size: 2.5rem; /* Adjust font size for smaller screens */
+  }
+  
+  .sub {
+    font-size: 1.5rem; /* Adjust font size for smaller screens */
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .intro {
+    padding-left: 5%;
+    padding-right: 5%; /* Adjust padding for smaller screens */
+    text-align: center; /* Center the intro on smaller screens */
+    align-items: center; /* Align items in the center vertically */
+  }
+
+  .introP {
+    max-width: 250px; /* Adjust max-width for better readability */
+    font-size: 0.9rem; /* Adjust font size for smaller screens */
+    margin: 5px; /* Adjust margin for better spacing */
+  
+  }
+  
+  .text {
+    font-size: 2rem; /* Adjust font size for better readability */
+  }
+  
+  .sub {
+    font-size: 1.2rem; /* Adjust font size for better readability */
+  }
+}

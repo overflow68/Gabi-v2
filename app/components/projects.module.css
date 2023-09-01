@@ -1,0 +1,70 @@
+.cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+}
+
+
+.item{
+    display: flex;
+    flex-direction: column;
+    max-width: 450px;
+    max-height: 480px;
+    background-color: #112240;
+    color: #fff;
+    border-radius: 20px;
+    margin: 15px;
+    padding: 25px;
+    position: relative;
+}
+.title {
+    font-size: 3.5rem;
+    margin-bottom: 50px;
+  }
+
+  .upperLinks{
+    text-align: center;
+    margin: 20px;
+  }
+
+.icon{
+    float: left;
+    
+}
+
+.icon2{
+    cursor: pointer;
+    float: right;
+}
+
+.desc{
+    text-align: justify center;
+    margin-top: 10px;
+    font-size: 1.2rem;
+}
+.desc1{
+    text-align: justify center;
+    
+    font-size: 1rem;
+    
+}
+
+.pTitle{
+    font-weight: bold;
+}
+
+.stack{
+    display: flex;
+    margin-top: 55px;
+    width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .cont{
+       flex-direction: column;
+        
+    }
+
+}
