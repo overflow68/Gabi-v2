@@ -17,7 +17,7 @@ export default function Projects(){
         title:"Armonios-core", 
         gitRepo:"https://github.com/overflow68/Armonios-core",
         liveDemo: false,
-        description:"Armonios-core is a JavaScript class that enables the management of a Bitcoin wallet, including key generation, address creation, broadcasting transactions, and interaction with the Bitcoin blockchain.",
+        description:"Armonios-core is a JavaScript object representing a Bitcoin wallet, including key generation, address creation, broadcasting transactions, and interaction with the Bitcoin blockchain.",
         techStack:["NodeJs","BitcoinJS-lib","bip32","bip39"],
         
     }]
