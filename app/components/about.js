@@ -23,7 +23,7 @@ return(
                
                
                </div>
-               <Image width={350} height={300} layout='intrinsic' alt ="" className={styles.pic} src={"/mepic.png"} />
+               <Image width={350} height={350}  alt ="" className={styles.pic} src={"/mepic.png"} />
         </div>
         
         
