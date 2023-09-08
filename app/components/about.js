@@ -19,7 +19,7 @@ return(
                 return <div key = {item} className={styles.item}> <AiOutlineArrowRight color='rgb(53, 255, 255)'/>{item}</div>
                })}
                </div>
-               <div className={styles.introP}>When i'm not coding I like to step away from the computer and do other human activities.</div>
+               <div className={styles.introP}>When i'm not coding I like to step away from the computer and spend time outdoors or read books.</div>
                
                
                </div>
